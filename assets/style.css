@@ -1,0 +1,229 @@
+/* =======================================================
+   GLOBAL
+======================================================= */
+
+.main {
+    background: #F8FAFC;
+}
+
+.block-container{
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+}
+
+/* =======================================================
+TITLE
+======================================================= */
+
+.main-title{
+
+    font-size:42px;
+    font-weight:700;
+    color:#184E77;
+    margin-bottom:0;
+
+}
+
+.sub-title{
+
+    font-size:18px;
+    color:#52796F;
+    margin-top:-8px;
+    margin-bottom:30px;
+
+}
+
+/* =======================================================
+CARD
+======================================================= */
+
+.card{
+
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+/* =======================================================
+METRIC CARD
+======================================================= */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+    border-radius:18px;
+    padding:18px;
+    border-left:8px solid #48CAE4;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+/* =======================================================
+BUTTON
+======================================================= */
+
+.stButton>button{
+
+    width:100%;
+    height:55px;
+
+    background:#48CAE4;
+    color:white;
+
+    border:none;
+    border-radius:15px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    background:#0096C7;
+    color:white;
+
+    transform:scale(1.02);
+
+}
+
+/* =======================================================
+SELECTBOX
+======================================================= */
+
+.stSelectbox{
+
+    margin-bottom:18px;
+
+}
+
+/* =======================================================
+SLIDER
+======================================================= */
+
+.stSlider{
+
+    padding-bottom:18px;
+
+}
+
+/* =======================================================
+PROGRESS BAR
+======================================================= */
+
+.stProgress > div > div > div{
+
+    background:#48CAE4;
+
+}
+
+/* =======================================================
+DATAFRAME
+======================================================= */
+
+[data-testid="stDataFrame"]{
+
+    background:white;
+    border-radius:15px;
+    padding:10px;
+
+}
+
+/* =======================================================
+SIDEBAR
+======================================================= */
+
+section[data-testid="stSidebar"]{
+
+    background:#FFFFFF;
+
+}
+
+/* =======================================================
+SUCCESS
+======================================================= */
+
+div[data-baseweb="notification"]{
+
+    border-radius:15px;
+
+}
+
+/* =======================================================
+INFO BOX
+======================================================= */
+
+.stAlert{
+
+    border-radius:15px;
+
+}
+
+/* =======================================================
+PLOTLY
+======================================================= */
+
+.js-plotly-plot{
+
+    border-radius:15px;
+
+}
+
+/* =======================================================
+FOOTER
+======================================================= */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+/* =======================================================
+SCROLLBAR
+======================================================= */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#F1F5F9;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#48CAE4;
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#0096C7;
+
+}
